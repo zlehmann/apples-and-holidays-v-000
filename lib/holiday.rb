@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_array = season.to_s.split("_")
       holiday_array.each do |word|
         word = word.capitalize!
-      end 
+      end
       holiday_string = holiday_array.join("")
       supply_list = supplies.join(", ")
       binding.pry
