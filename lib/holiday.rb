@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       holiday_string = holiday_array.join(" ")
       supply_list = supplies.join(", ")
-      binding.pry
+      #binding.pry
       puts "  #{holiday.to_s.capitalize}: #{supply_list}"
     end
   end
